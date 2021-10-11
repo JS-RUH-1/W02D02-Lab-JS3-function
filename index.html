@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Air Commerce</title>
+    <link rel="stylesheet" href="style/style.css" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <label>Here you can count how many vowels in the word</label>
+    <br />
+    <input type="text" id="text" placeholder="Enter your word here" />
+    <button id="button" onclick="vowelsCheck(this)">Click Me</button>
+
+    <p id="vowelsRes"></p>
+
+    <hr />
+    <select name="op" id="mySelect">
+      <option value="square">square</option>
+      <option value="cube">cube</option>
+    </select>
+    <input type="text" id="number" placeholder="Enter your number" />
+    <button id="button" onclick="handleClick(this)">Click Me</button>
+    <p id="result">The result is:</p>
+
+    <script src="./myScript.js"></script>
+  </body>
+</html>
