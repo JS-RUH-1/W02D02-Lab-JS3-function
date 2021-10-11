@@ -15,13 +15,20 @@
 
 // Square and cube the number
 
-// function calculate(fun, x) {
-//   function square(x) {
-//     console.log(x ** 2);
-//   }
+function calculate(fun, x) {
+  if (fun == square) {
+    square(x);
+  } else if (fun == cube) {
+    cube(x);
+  }
+}
 
-//   function cube(x) {
-//     console.log(x ** 3);
-//   }
-// }
-// calculate(square, 2);
+function square(x) {
+  console.log(x ** 2);
+}
+
+function cube(x) {
+  console.log(x ** 3);
+}
+
+calculate(cube, 2);
