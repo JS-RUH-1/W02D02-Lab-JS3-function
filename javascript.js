@@ -14,3 +14,14 @@
 // countVowels("aa");
 
 // Square and cube the number
+
+// function calculate(fun, x) {
+//   function square(x) {
+//     console.log(x ** 2);
+//   }
+
+//   function cube(x) {
+//     console.log(x ** 3);
+//   }
+// }
+// calculate(square, 2);
