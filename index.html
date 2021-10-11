@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W02D02 Lab JS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form id="prospects_form" class="text-center">
+      <div class="input-group input-group-lg text-center mt-5">
+        <span class="input-group-text" id="inputGroup-sizing-lg"
+          >Enter the word</span
+        >
+        <input
+          placeholder="hello"
+          type="text"
+          id="wordEnterd"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-lg"
+        />
+      </div>
+      <div class="input-group input-group-lg text-center mt-2">
+        <span class="input-group-text" id="inputGroup-sizing-lg"
+          >Enter the operation</span
+        >
+        <input
+          placeholder=" 'cube' or 'square' only"
+          type="text"
+          id="operationFromUser"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-lg"
+        />
+      </div>
+      <div class="input-group input-group-lg text-center mt-2">
+        <span class="input-group-text" id="inputGroup-sizing-lg "
+          >Enter the number</span
+        >
+        <input
+          placeholder="2"
+          type="text"
+          id="number"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-lg"
+        />
+      </div>
+      <button
+        onclick="handleClick(this)"
+        type="button"
+        class="btn btn-primary mt-3"
+      >
+        Calculate
+      </button>
+    </form>
+
+    <h3 id="vowelsH3"></h3>
+
+    <h3 id="numberH3"></h3>
+    <!-- important scripts -->
+    <script src="Javascript.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
